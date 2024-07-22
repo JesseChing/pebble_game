@@ -1,0 +1,11 @@
+[package]
+name = "pebbles-game-io"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+gmeta.workspace = true
+gstd.workspace = true
+codec = { package = "parity-scale-codec", version = "3.6", default-features = false }
+scale-info = { version = "2.9", default-features = false, features = ["derive"] }
